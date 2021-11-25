@@ -38,7 +38,7 @@
 
 /* Begin PBXFileReference section */
 		3782A48806516232712E4019 /* Pods-TJAudioPlay_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TJAudioPlay_Tests.debug.xcconfig"; path = "Target Support Files/Pods-TJAudioPlay_Tests/Pods-TJAudioPlay_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		5D4FF735FF0465FC39DA7D96 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		5D4FF735FF0465FC39DA7D96 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* TJAudioPlay_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TJAudioPlay_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -59,12 +59,12 @@
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		7B05B569A62C4B9C20577657 /* TJAudioPlay.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = TJAudioPlay.podspec; path = ../TJAudioPlay.podspec; sourceTree = "<group>"; };
+		7B05B569A62C4B9C20577657 /* TJAudioPlay.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = TJAudioPlay.podspec; path = ../TJAudioPlay.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		93F024FE09D005B7211CCEC4 /* Pods_TJAudioPlay_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TJAudioPlay_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		961F4569E77643A47F3980DD /* Pods-TJAudioPlay_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TJAudioPlay_Example.debug.xcconfig"; path = "Target Support Files/Pods-TJAudioPlay_Example/Pods-TJAudioPlay_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		A8EDAD6FCEBF033BE81AE8B2 /* Pods-TJAudioPlay_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TJAudioPlay_Tests.release.xcconfig"; path = "Target Support Files/Pods-TJAudioPlay_Tests/Pods-TJAudioPlay_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		DAD7DAA0466CD5D7BD9A2750 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		DAD7DAA0466CD5D7BD9A2750 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		E9DDBB7E3F1AF152B6C9B820 /* Pods-TJAudioPlay_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TJAudioPlay_Example.release.xcconfig"; path = "Target Support Files/Pods-TJAudioPlay_Example/Pods-TJAudioPlay_Example.release.xcconfig"; sourceTree = "<group>"; };
 		F49BCFFDDD3B8F133DAC82EC /* Pods_TJAudioPlay_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TJAudioPlay_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -103,7 +103,6 @@
 				3782A48806516232712E4019 /* Pods-TJAudioPlay_Tests.debug.xcconfig */,
 				A8EDAD6FCEBF033BE81AE8B2 /* Pods-TJAudioPlay_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -258,6 +257,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -324,10 +324,14 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-TJAudioPlay_Example/Pods-TJAudioPlay_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/StreamingKit/StreamingKit.framework",
 				"${BUILT_PRODUCTS_DIR}/TJAudioPlay/TJAudioPlay.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/StreamingKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TJAudioPlay.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
