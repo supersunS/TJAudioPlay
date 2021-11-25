@@ -1,6 +1,0 @@
-framework module TJAudioPlay {
-  umbrella header "TJAudioPlay-umbrella.h"
-
-  export *
-  module * { export * }
-}

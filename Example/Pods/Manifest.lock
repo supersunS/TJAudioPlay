@@ -1,29 +1,3 @@
-PODS:
-  - SDWebImage (5.12.1):
-    - SDWebImage/Core (= 5.12.1)
-  - SDWebImage/Core (5.12.1)
-  - StreamingKit (0.1.30)
-  - TJAudioPlay (0.1.0):
-    - SDWebImage
-    - StreamingKit
-
-DEPENDENCIES:
-  - TJAudioPlay (from `../`)
-
-SPEC REPOS:
-  trunk:
-    - SDWebImage
-    - StreamingKit
-
-EXTERNAL SOURCES:
-  TJAudioPlay:
-    :path: "../"
-
-SPEC CHECKSUMS:
-  SDWebImage: 4dc3e42d9ec0c1028b960a33ac6b637bb432207b
-  StreamingKit: 70ca8608c206864b4d54a577eacb3c8bf7c72209
-  TJAudioPlay: 5e265807a5ea038ba2f0715d66b64587cbf61387
-
-PODFILE CHECKSUM: 2efaa1d5351a20afec6b3aadf13a3f7504236c79
+PODFILE CHECKSUM: c747210ac92db75d76912683ac5903a58fd60dfc
 
 COCOAPODS: 1.11.2

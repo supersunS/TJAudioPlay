@@ -18,6 +18,38 @@
             endingLineNumber = "484"
             landmarkName = "-tj_imageNamed:"
             landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "A0055460-0AEF-446F-A101-C03E8122667D - b76b251bd173821"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[TJAudioPlayView tj_imageNamed:]"
+                  moduleName = "TJAudioPlay_Example"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/supersun/Desktop/TJAudioPlay/Example/Pods/TJAudioPlay/TJAudioPlay/Classes/TJAudioPlayViewManger.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "484"
+                  endingLineNumber = "484"
+                  offsetFromSymbolStart = "55">
+               </Location>
+               <Location
+                  uuid = "A0055460-0AEF-446F-A101-C03E8122667D - 81d850f13989f95b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[TJAudioPlayView tj_imageNamed:]"
+                  moduleName = "TJAudioPlay"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/supersun/Desktop/TJAudioPlay/Example/Pods/TJAudioPlay/TJAudioPlay/Classes/TJAudioPlayViewManger.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "485"
+                  endingLineNumber = "485"
+                  offsetFromSymbolStart = "384">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -34,6 +66,38 @@
             endingLineNumber = "472"
             landmarkName = "-tj_refreshBundle"
             landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "C7BE0E14-D179-4FC3-86AD-564B87D77A3E - fe9c721d5694d588"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[TJAudioPlayView tj_refreshBundle]"
+                  moduleName = "TJAudioPlay_Example"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/supersun/Desktop/TJAudioPlay/Example/Pods/TJAudioPlay/TJAudioPlay/Classes/TJAudioPlayViewManger.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "472"
+                  endingLineNumber = "472"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  uuid = "C7BE0E14-D179-4FC3-86AD-564B87D77A3E - 743290bdd20a14dd"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[TJAudioPlayView tj_refreshBundle]"
+                  moduleName = "TJAudioPlay"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/supersun/Desktop/TJAudioPlay/Example/Pods/TJAudioPlay/TJAudioPlay/Classes/TJAudioPlayViewManger.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "472"
+                  endingLineNumber = "472"
+                  offsetFromSymbolStart = "16">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>
