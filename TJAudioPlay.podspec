@@ -21,14 +21,12 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/SuperSun/TJAudioPlay'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
+  s.homepage         = 'https://github.com/supersunS/TJAudioPlay'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'SuperSun' => 'sundaoran@tojoy.com' }
   s.source           = { :git => 'https://github.com/supersunS/TJAudioPlay.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '9.0'
+  s.ios.deployment_target = '10.0'
   
   s.public_header_files = 'Pod/Classes/**/*.h'
   s.source_files = 'TJAudioPlay/Classes/**/*'
