@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "summary": "A short description of TJAudioPlay.",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/SuperSun/TJAudioPlay",
+  "homepage": "https://github.com/supersunS/TJAudioPlay",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,11 +12,11 @@
     "SuperSun": "sundaoran@tojoy.com"
   },
   "source": {
-    "git": "https://github.com/SuperSun/TJAudioPlay.git",
+    "git": "https://github.com/supersunS/TJAudioPlay.git",
     "tag": "0.1.0"
   },
   "platforms": {
-    "ios": "9.0"
+    "ios": "10.0"
   },
   "public_header_files": "Pod/Classes/**/*.h",
   "source_files": "TJAudioPlay/Classes/**/*",

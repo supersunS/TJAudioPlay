@@ -471,7 +471,9 @@ static TJAudioPlayViewManger *_shareInstance = nil;
     static NSBundle *refreshBundle = nil;
     if (refreshBundle == nil) {
         NSBundle *currentBundle = [NSBundle bundleForClass:[self class]];
-        refreshBundle = [NSBundle bundleWithPath:[currentBundle pathForResource:@"TJAudioPlay" ofType:@"bundle"]];
+        // 获取当前bundle的名称
+        NSString *currentBundleName = currentBundle.infoDictionary[@"CFBundleName"];
+        refreshBundle = [NSBundle bundleWithPath:[currentBundle pathForResource:currentBundleName ofType:@"bundle"]];
     }
     return refreshBundle;
 }
