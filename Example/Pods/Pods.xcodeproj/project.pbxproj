@@ -7,350 +7,57 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		00D9CE472CF4A4C0D0F9D841B443FBCA /* NSMutableArray+STKAudioPlayer.h in Headers */ = {isa = PBXBuildFile; fileRef = AC176B5631026A5EE07DE728451692CF /* NSMutableArray+STKAudioPlayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		07912191C137B69055FE6061813D5C06 /* audio_icon_unnext@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 02608B12014AEFE7528DA241B88D51DB /* audio_icon_unnext@2x.png */; };
-		07DD6B7FB341AA71E122711C580C66AE /* StreamingKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5145109A04CA94D1F0A9DA874DA805FA /* StreamingKit-dummy.m */; };
-		0FF0707DB5278A4B3E70279D0BFC2162 /* STKAudioPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E658C2014019BAA4E2672633FBB62E8 /* STKAudioPlayer.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		10EA27C0530B876560E486DDC2902CB3 /* TJAudioPlayStateButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 7894E13E6ABF66F6BFFBB255D8EE3400 /* TJAudioPlayStateButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1463A95B6A9384369EA7DC3793148AA0 /* STKQueueEntry.m in Sources */ = {isa = PBXBuildFile; fileRef = F819446B99746143290E257FC6CBC4B3 /* STKQueueEntry.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		1806DF519C646F55B5EE1F26B05B8DAD /* TJAudioPlay-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 306CE2D32CDEA1739BE8614F9FB36997 /* TJAudioPlay-dummy.m */; };
-		1AA77AF177EC065B46F2A216CDF9D102 /* TJAudioCircleProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F07AC7E5BFBA54E294534FEAB6F2FEF /* TJAudioCircleProgressView.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		1BC22EBBB570A3C9B3B5BBF7FE20FCD9 /* NSMutableArray+STKAudioPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 5335E7DEE07BDA98134B62763CD96DD7 /* NSMutableArray+STKAudioPlayer.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		1FDF382F6635FD8A95322598A8944127 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC74FC1F4E1F1239F3109D653E47DAA1 /* AudioToolbox.framework */; };
-		2843E33F9C4F976CFA4106A508CC4F7A /* STKLocalFileDataSource.h in Headers */ = {isa = PBXBuildFile; fileRef = DA7F87AB869F66841B1F637F1A80C766 /* STKLocalFileDataSource.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2C88AED216B366F69894CC06D948C32E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD878CED52616E9DF1329DA26310C7E8 /* Foundation.framework */; };
-		2D77D9F25111A9798BBB971CA954E673 /* audio_state_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 513364A9284A76D754CE0A19CC239364 /* audio_state_icon@2x.png */; };
-		3088C22B0F10EDB7743BCF729CE9E402 /* audio_icon_next@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 20FD0528F8514E664A469E7DC27C5462 /* audio_icon_next@3x.png */; };
-		30F380A8565024F6E7E44F8FFF03FC4F /* STKDataSourceWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 095AE44A32B7A1204BE7215FF985107A /* STKDataSourceWrapper.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		334B3FF7E0D351EBDD27EA30CCF8B7D9 /* TJAudioPlayManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 819BBA177313F62895449E20215160E9 /* TJAudioPlayManager.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		3375CB2FDEA5F168ACF0343E9D283944 /* STKCoreFoundationDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = AB3DDBBCD05F99EE5574998C464D3445 /* STKCoreFoundationDataSource.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		4B2CE17DBCEB851C06FE68C7885E2D36 /* audio_icon_pause@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3025E4152F37A69EAD327D9101DD8FC9 /* audio_icon_pause@2x.png */; };
-		54EC672EDC4A1ACF5FB7DAF9D5CB465E /* TJAudioCircleProgressView.h in Headers */ = {isa = PBXBuildFile; fileRef = 54EDCD5E172CF9D7D5EBAA8104F782B0 /* TJAudioCircleProgressView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		55135F6C7FFBD31858FCBE3EA1DBF51D /* STKAudioPlayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 135FAE072861771016FEC5ACB838A155 /* STKAudioPlayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5D157CE0C1A1DFD9E94BF24C5356A03C /* STKQueueEntry.h in Headers */ = {isa = PBXBuildFile; fileRef = F84EE3979899A3D870D2CE76471F624C /* STKQueueEntry.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		651FD10D897661E673293E28C09C2B3D /* TJAudioPlay-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 85A2B86245C1E3CE8C9BF2B28FE93525 /* TJAudioPlay-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		66832F38ED5ED80DA33F3FF8F9682D2A /* audio_state_icon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = CCA482EE7C7AADDA85054C1CD809AAE2 /* audio_state_icon@3x.png */; };
-		766B7C5FEAEA0731D648A2DADE94208A /* TJAudioPlayManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 5EFD350DBF5988A0123799C80686069E /* TJAudioPlayManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		785F515720E4BCE8EEE06350376AEF04 /* TJAudioPlay-TJAudioPlay in Resources */ = {isa = PBXBuildFile; fileRef = B474E259BE192567CF46E64C02390D81 /* TJAudioPlay-TJAudioPlay */; };
-		78B4DFF69DD8ED4468B9C8E2A3242AF2 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA1F39E93D368742E9CCA5C33AB78DA2 /* CFNetwork.framework */; };
-		7BBE5DCFF5DF892E6E53CE78E472F29D /* audio_icon_play@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 223742A5468A29357F7809D9F9945A75 /* audio_icon_play@3x.png */; };
-		83949EC1F0073DD4C3E0BB4D6B450C73 /* audio_icon_close@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = B764DDB3AFE39171FDEAE56FC883BC44 /* audio_icon_close@3x.png */; };
-		87BD01E6CBCD2C8F1B33A1C163D5EE8C /* audio_icon_unnext@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 32B8A85ACA0A7F4DCDA8BAA5D944959C /* audio_icon_unnext@3x.png */; };
-		8D11B63DB59132C11F77D99B2D1A76F7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD878CED52616E9DF1329DA26310C7E8 /* Foundation.framework */; };
-		927E3A820087F290E674760BE3BFC8A6 /* STKDataSourceWrapper.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C23186B73681BD354CD006589276776 /* STKDataSourceWrapper.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		941AE86067B89B48CA074B7E741F838A /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE278DD8E7A4B03B25282D2BD56A3068 /* CoreFoundation.framework */; };
-		984A79C5F99A19C61642B5FA805571E6 /* audio_icon_play@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EDA7945FA2FBAF87DBAB78460BE7CA2B /* audio_icon_play@2x.png */; };
-		A5ED3C826489905EAC29297682A8CD74 /* TJMediaBackGroundManager.h in Headers */ = {isa = PBXBuildFile; fileRef = AC1ED35325588390D960AB63218C3598 /* TJMediaBackGroundManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A9700BC45169BE201F02235613864152 /* STKAutoRecoveringHTTPDataSource.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AEB339770A52AC2B5E613411C798994 /* STKAutoRecoveringHTTPDataSource.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B419B6EE8A9F015DF8DBD37A40020F9A /* TJAudioPlayViewManger.h in Headers */ = {isa = PBXBuildFile; fileRef = 5168773176AF7857A8B5243FF6EC3F44 /* TJAudioPlayViewManger.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B48BB36A22DAEA13D3A6F62D8DE9A0C1 /* STKHTTPDataSource.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D1EC8F4C0D5E1EEAA7ACF3C082A3317 /* STKHTTPDataSource.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B4EB054E09D02B82274CC2B59E3169BD /* TJAudioPlayViewManger.m in Sources */ = {isa = PBXBuildFile; fileRef = 045A7C249FE9C385E0E28429597394EE /* TJAudioPlayViewManger.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		B51F0829C9DE6ADC93422FED24906027 /* audio_icon_pause@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = FA9A406B171AAA0F9D3BCAAC2C804BC8 /* audio_icon_pause@3x.png */; };
-		B87FD8602697FC5CB2B82688797E5200 /* audio_icon_next@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B71354BAE9E12C7E40E47BFB15E1F61C /* audio_icon_next@2x.png */; };
-		BC19D360C8059BD19916226CDEFEF8E0 /* STKAutoRecoveringHTTPDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = D777FD90A941BDE14EB8D11C5F0ED25F /* STKAutoRecoveringHTTPDataSource.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		C322D210618B4FCCA7A87D379610CA76 /* TJMediaBackGroundManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E8FCBA506845A7AA92F013F0F8B6866 /* TJMediaBackGroundManager.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		C3A899761E8B1C9AA2504FA76E34F1FA /* STKDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D56C5D5283BE89AA3F92EFA7A2224E2 /* STKDataSource.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		C97B901C292A9FB96DB70E346CC25837 /* STKDataSource.h in Headers */ = {isa = PBXBuildFile; fileRef = BED80AE2D7CBE72FC0477A6A596A4833 /* STKDataSource.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CB7980D6AB9EF5C0549E933B51DDE28B /* StreamingKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A9F393C80F0658C1696AC1ED74BE9D9 /* StreamingKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D429112B02725572F4DA4DC296652DDF /* TJAudioPlayStateButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 611B7AF6C59CF6601E9E5145BFAF7FD8 /* TJAudioPlayStateButton.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		D477325A467DBFA17BFEBC0EEF6F35D7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD878CED52616E9DF1329DA26310C7E8 /* Foundation.framework */; };
-		E0063ED361132A222ACEFFDF5F41CE13 /* STKHTTPDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D95CE8770C849806B51786680BA6CBB /* STKHTTPDataSource.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		EB39746CE2419EB29A6F1C142A5E9239 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D76DAFD23E297AC44EEFD7D57B16297 /* SystemConfiguration.framework */; };
-		EDBECF52EFF3A03D34953D3A6CC019F9 /* STKLocalFileDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B2E6F2A591136FFA77779A9DBD06229 /* STKLocalFileDataSource.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		F35DD6565E6FC9D12F8B541F9F009480 /* STKCoreFoundationDataSource.h in Headers */ = {isa = PBXBuildFile; fileRef = 026B756EA850968CCF6F4B9C7D19F98E /* STKCoreFoundationDataSource.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F9761F975C2945BA353B42D783145856 /* Pods-TJAudioPlay_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DD38D3839B750E100B5863F3AC96649D /* Pods-TJAudioPlay_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FBCF2A3DBEC171FC763B4B496994CB01 /* Pods-TJAudioPlay_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FCE0023DDE58ADF66892D831C5D04214 /* Pods-TJAudioPlay_Example-dummy.m */; };
-		FF307926936769E265C42EFDBB80A4F3 /* audio_icon_close@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CC7F0F07137B9F7F0043BC41466E9297 /* audio_icon_close@2x.png */; };
+		01DF1913AB7FDEA39A156686F1A7DDC7 /* Pods-TJAudioPlay_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D4D8447FAD7C2E7A78FA50EDCAD2B3B0 /* Pods-TJAudioPlay_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1A0E3FE98AF86712C66F335F33CF80A2 /* Pods-TJAudioPlay_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 71EF19CFB38FED0ECCDE9A482F7539C8 /* Pods-TJAudioPlay_Example-dummy.m */; };
+		3978ABC9FBF931DBA6ABD8C487A5D43B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		00C6079B8FA4EC2B923882134E9A572F /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = EFC2CB0F677D60406457FB59CD6EF75A;
-			remoteInfo = "TJAudioPlay-TJAudioPlay";
-		};
-		3114C8EACF59CAD072173098F6539194 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = BB6CE13DEDC23DDA163BD751A4391794;
-			remoteInfo = StreamingKit;
-		};
-		7DBBA2CBAE97007108D871D457CC5288 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = BB6CE13DEDC23DDA163BD751A4391794;
-			remoteInfo = StreamingKit;
-		};
-		B2207224BE6DD5A662FA24A43489F285 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 3A4983E5E9D4C9E70FFA8CCCB2D56089;
-			remoteInfo = TJAudioPlay;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
-		02608B12014AEFE7528DA241B88D51DB /* audio_icon_unnext@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "audio_icon_unnext@2x.png"; path = "TJAudioPlay/Assets/audio_icon_unnext@2x.png"; sourceTree = "<group>"; };
-		026B756EA850968CCF6F4B9C7D19F98E /* STKCoreFoundationDataSource.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = STKCoreFoundationDataSource.h; path = StreamingKit/StreamingKit/STKCoreFoundationDataSource.h; sourceTree = "<group>"; };
-		045A7C249FE9C385E0E28429597394EE /* TJAudioPlayViewManger.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TJAudioPlayViewManger.m; path = TJAudioPlay/Classes/TJAudioPlayViewManger.m; sourceTree = "<group>"; };
-		095AE44A32B7A1204BE7215FF985107A /* STKDataSourceWrapper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = STKDataSourceWrapper.m; path = StreamingKit/StreamingKit/STKDataSourceWrapper.m; sourceTree = "<group>"; };
-		0D95CE8770C849806B51786680BA6CBB /* STKHTTPDataSource.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = STKHTTPDataSource.m; path = StreamingKit/StreamingKit/STKHTTPDataSource.m; sourceTree = "<group>"; };
-		0E8FCBA506845A7AA92F013F0F8B6866 /* TJMediaBackGroundManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TJMediaBackGroundManager.m; path = TJAudioPlay/Classes/TJMediaBackGroundManager.m; sourceTree = "<group>"; };
-		135FAE072861771016FEC5ACB838A155 /* STKAudioPlayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = STKAudioPlayer.h; path = StreamingKit/StreamingKit/STKAudioPlayer.h; sourceTree = "<group>"; };
-		1B769318FB044BA61417B633F05EF131 /* TJAudioPlay-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TJAudioPlay-prefix.pch"; sourceTree = "<group>"; };
-		20FD0528F8514E664A469E7DC27C5462 /* audio_icon_next@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "audio_icon_next@3x.png"; path = "TJAudioPlay/Assets/audio_icon_next@3x.png"; sourceTree = "<group>"; };
-		223742A5468A29357F7809D9F9945A75 /* audio_icon_play@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "audio_icon_play@3x.png"; path = "TJAudioPlay/Assets/audio_icon_play@3x.png"; sourceTree = "<group>"; };
-		2854BCD3CD2B97FB2A296EC96861144F /* StreamingKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "StreamingKit-Info.plist"; sourceTree = "<group>"; };
-		2B2BEF2654223ACB9E23B428F829020F /* Pods-TJAudioPlay_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TJAudioPlay_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		2D56C5D5283BE89AA3F92EFA7A2224E2 /* STKDataSource.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = STKDataSource.m; path = StreamingKit/StreamingKit/STKDataSource.m; sourceTree = "<group>"; };
-		3025E4152F37A69EAD327D9101DD8FC9 /* audio_icon_pause@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "audio_icon_pause@2x.png"; path = "TJAudioPlay/Assets/audio_icon_pause@2x.png"; sourceTree = "<group>"; };
-		306CE2D32CDEA1739BE8614F9FB36997 /* TJAudioPlay-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TJAudioPlay-dummy.m"; sourceTree = "<group>"; };
-		32B8A85ACA0A7F4DCDA8BAA5D944959C /* audio_icon_unnext@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "audio_icon_unnext@3x.png"; path = "TJAudioPlay/Assets/audio_icon_unnext@3x.png"; sourceTree = "<group>"; };
-		35D52596E8FD890599461F1BEEAB35B4 /* TJAudioPlay.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TJAudioPlay.release.xcconfig; sourceTree = "<group>"; };
-		3847BF10A3D75C995BEA5BCE91DC16EA /* ResourceBundle-TJAudioPlay-TJAudioPlay-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-TJAudioPlay-TJAudioPlay-Info.plist"; sourceTree = "<group>"; };
-		38B1CF4015721443FF5F4A46AEC675E5 /* StreamingKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = StreamingKit.modulemap; sourceTree = "<group>"; };
-		4AEB339770A52AC2B5E613411C798994 /* STKAutoRecoveringHTTPDataSource.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = STKAutoRecoveringHTTPDataSource.h; path = StreamingKit/StreamingKit/STKAutoRecoveringHTTPDataSource.h; sourceTree = "<group>"; };
-		4D76DAFD23E297AC44EEFD7D57B16297 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
-		4EBC8E865EFF939F7A961DD4B780E81C /* StreamingKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = StreamingKit.release.xcconfig; sourceTree = "<group>"; };
-		513364A9284A76D754CE0A19CC239364 /* audio_state_icon@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "audio_state_icon@2x.png"; path = "TJAudioPlay/Assets/audio_state_icon@2x.png"; sourceTree = "<group>"; };
-		5145109A04CA94D1F0A9DA874DA805FA /* StreamingKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "StreamingKit-dummy.m"; sourceTree = "<group>"; };
-		5168773176AF7857A8B5243FF6EC3F44 /* TJAudioPlayViewManger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TJAudioPlayViewManger.h; path = TJAudioPlay/Classes/TJAudioPlayViewManger.h; sourceTree = "<group>"; };
-		5335E7DEE07BDA98134B62763CD96DD7 /* NSMutableArray+STKAudioPlayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSMutableArray+STKAudioPlayer.m"; path = "StreamingKit/StreamingKit/NSMutableArray+STKAudioPlayer.m"; sourceTree = "<group>"; };
-		54EDCD5E172CF9D7D5EBAA8104F782B0 /* TJAudioCircleProgressView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TJAudioCircleProgressView.h; path = TJAudioPlay/Classes/TJAudioCircleProgressView.h; sourceTree = "<group>"; };
-		5A9F393C80F0658C1696AC1ED74BE9D9 /* StreamingKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "StreamingKit-umbrella.h"; sourceTree = "<group>"; };
-		5B2E6F2A591136FFA77779A9DBD06229 /* STKLocalFileDataSource.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = STKLocalFileDataSource.m; path = StreamingKit/StreamingKit/STKLocalFileDataSource.m; sourceTree = "<group>"; };
-		5E658C2014019BAA4E2672633FBB62E8 /* STKAudioPlayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = STKAudioPlayer.m; path = StreamingKit/StreamingKit/STKAudioPlayer.m; sourceTree = "<group>"; };
-		5EFD350DBF5988A0123799C80686069E /* TJAudioPlayManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TJAudioPlayManager.h; path = TJAudioPlay/Classes/TJAudioPlayManager.h; sourceTree = "<group>"; };
-		611B7AF6C59CF6601E9E5145BFAF7FD8 /* TJAudioPlayStateButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TJAudioPlayStateButton.m; path = TJAudioPlay/Classes/TJAudioPlayStateButton.m; sourceTree = "<group>"; };
-		6534409FC2CD018E970422D87FBBCE47 /* StreamingKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = StreamingKit.debug.xcconfig; sourceTree = "<group>"; };
-		7894E13E6ABF66F6BFFBB255D8EE3400 /* TJAudioPlayStateButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TJAudioPlayStateButton.h; path = TJAudioPlay/Classes/TJAudioPlayStateButton.h; sourceTree = "<group>"; };
-		7ED917818247883564278B1D93D8A983 /* Pods_TJAudioPlay_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TJAudioPlay_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		80B38261C293C0C7E3FBEE1E472E09D0 /* Pods-TJAudioPlay_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TJAudioPlay_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		819BBA177313F62895449E20215160E9 /* TJAudioPlayManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TJAudioPlayManager.m; path = TJAudioPlay/Classes/TJAudioPlayManager.m; sourceTree = "<group>"; };
-		85A2B86245C1E3CE8C9BF2B28FE93525 /* TJAudioPlay-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TJAudioPlay-umbrella.h"; sourceTree = "<group>"; };
-		864D26D79873488C18491A2F26155824 /* TJAudioPlay-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TJAudioPlay-Info.plist"; sourceTree = "<group>"; };
-		9A865CA5973CF377634D00CED14E19F2 /* Pods-TJAudioPlay_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TJAudioPlay_Example-Info.plist"; sourceTree = "<group>"; };
-		9C23186B73681BD354CD006589276776 /* STKDataSourceWrapper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = STKDataSourceWrapper.h; path = StreamingKit/StreamingKit/STKDataSourceWrapper.h; sourceTree = "<group>"; };
-		9D1EC8F4C0D5E1EEAA7ACF3C082A3317 /* STKHTTPDataSource.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = STKHTTPDataSource.h; path = StreamingKit/StreamingKit/STKHTTPDataSource.h; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9F07AC7E5BFBA54E294534FEAB6F2FEF /* TJAudioCircleProgressView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TJAudioCircleProgressView.m; path = TJAudioPlay/Classes/TJAudioCircleProgressView.m; sourceTree = "<group>"; };
-		AB3DDBBCD05F99EE5574998C464D3445 /* STKCoreFoundationDataSource.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = STKCoreFoundationDataSource.m; path = StreamingKit/StreamingKit/STKCoreFoundationDataSource.m; sourceTree = "<group>"; };
-		AC176B5631026A5EE07DE728451692CF /* NSMutableArray+STKAudioPlayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSMutableArray+STKAudioPlayer.h"; path = "StreamingKit/StreamingKit/NSMutableArray+STKAudioPlayer.h"; sourceTree = "<group>"; };
-		AC1ED35325588390D960AB63218C3598 /* TJMediaBackGroundManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TJMediaBackGroundManager.h; path = TJAudioPlay/Classes/TJMediaBackGroundManager.h; sourceTree = "<group>"; };
-		AE278DD8E7A4B03B25282D2BD56A3068 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/CoreFoundation.framework; sourceTree = DEVELOPER_DIR; };
-		B474E259BE192567CF46E64C02390D81 /* TJAudioPlay-TJAudioPlay */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "TJAudioPlay-TJAudioPlay"; path = TJAudioPlay.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		B71354BAE9E12C7E40E47BFB15E1F61C /* audio_icon_next@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "audio_icon_next@2x.png"; path = "TJAudioPlay/Assets/audio_icon_next@2x.png"; sourceTree = "<group>"; };
-		B764DDB3AFE39171FDEAE56FC883BC44 /* audio_icon_close@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "audio_icon_close@3x.png"; path = "TJAudioPlay/Assets/audio_icon_close@3x.png"; sourceTree = "<group>"; };
-		BA1F39E93D368742E9CCA5C33AB78DA2 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/CFNetwork.framework; sourceTree = DEVELOPER_DIR; };
-		BED80AE2D7CBE72FC0477A6A596A4833 /* STKDataSource.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = STKDataSource.h; path = StreamingKit/StreamingKit/STKDataSource.h; sourceTree = "<group>"; };
-		C5D145B9500C181C2FD816CC39572EEC /* Pods-TJAudioPlay_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TJAudioPlay_Example.release.xcconfig"; sourceTree = "<group>"; };
-		CA727E390EB67397402C4FA7DEB4C454 /* Pods-TJAudioPlay_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TJAudioPlay_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		CC74FC1F4E1F1239F3109D653E47DAA1 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/AudioToolbox.framework; sourceTree = DEVELOPER_DIR; };
-		CC7F0F07137B9F7F0043BC41466E9297 /* audio_icon_close@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "audio_icon_close@2x.png"; path = "TJAudioPlay/Assets/audio_icon_close@2x.png"; sourceTree = "<group>"; };
-		CCA482EE7C7AADDA85054C1CD809AAE2 /* audio_state_icon@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "audio_state_icon@3x.png"; path = "TJAudioPlay/Assets/audio_state_icon@3x.png"; sourceTree = "<group>"; };
-		CD878CED52616E9DF1329DA26310C7E8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		D62CC09C4353F2A78B4CCDF707F4D852 /* StreamingKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "StreamingKit-prefix.pch"; sourceTree = "<group>"; };
-		D777FD90A941BDE14EB8D11C5F0ED25F /* STKAutoRecoveringHTTPDataSource.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = STKAutoRecoveringHTTPDataSource.m; path = StreamingKit/StreamingKit/STKAutoRecoveringHTTPDataSource.m; sourceTree = "<group>"; };
-		DA7F87AB869F66841B1F637F1A80C766 /* STKLocalFileDataSource.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = STKLocalFileDataSource.h; path = StreamingKit/StreamingKit/STKLocalFileDataSource.h; sourceTree = "<group>"; };
-		DBFD6E817D593043470CB1362EB4BA17 /* StreamingKit */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = StreamingKit; path = StreamingKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		DD38D3839B750E100B5863F3AC96649D /* Pods-TJAudioPlay_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TJAudioPlay_Example-umbrella.h"; sourceTree = "<group>"; };
-		E590CE6315CECE0CBAD46B39F9228DF3 /* Pods-TJAudioPlay_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TJAudioPlay_Example-frameworks.sh"; sourceTree = "<group>"; };
-		E7D397DE5CD5305B0944CFBEA4379B4E /* TJAudioPlay.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TJAudioPlay.modulemap; sourceTree = "<group>"; };
-		ED567153C1F80659E495DF162EB9EC76 /* TJAudioPlay */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TJAudioPlay; path = TJAudioPlay.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		EDA7945FA2FBAF87DBAB78460BE7CA2B /* audio_icon_play@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "audio_icon_play@2x.png"; path = "TJAudioPlay/Assets/audio_icon_play@2x.png"; sourceTree = "<group>"; };
-		F23E0FC99A06E1F992E50A155EA7EEB5 /* Pods-TJAudioPlay_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TJAudioPlay_Example.modulemap"; sourceTree = "<group>"; };
-		F448405D450D8E27A5379F1456FA0567 /* TJAudioPlay.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TJAudioPlay.debug.xcconfig; sourceTree = "<group>"; };
-		F819446B99746143290E257FC6CBC4B3 /* STKQueueEntry.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = STKQueueEntry.m; path = StreamingKit/StreamingKit/STKQueueEntry.m; sourceTree = "<group>"; };
-		F84EE3979899A3D870D2CE76471F624C /* STKQueueEntry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = STKQueueEntry.h; path = StreamingKit/StreamingKit/STKQueueEntry.h; sourceTree = "<group>"; };
-		FA9A406B171AAA0F9D3BCAAC2C804BC8 /* audio_icon_pause@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "audio_icon_pause@3x.png"; path = "TJAudioPlay/Assets/audio_icon_pause@3x.png"; sourceTree = "<group>"; };
-		FCE0023DDE58ADF66892D831C5D04214 /* Pods-TJAudioPlay_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TJAudioPlay_Example-dummy.m"; sourceTree = "<group>"; };
+		03E989F0945324719ACBEAC69B4D2868 /* Pods-TJAudioPlay_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TJAudioPlay_Example-Info.plist"; sourceTree = "<group>"; };
+		070A2C6152743B705F1351CEABF1C505 /* Pods-TJAudioPlay_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TJAudioPlay_Example.modulemap"; sourceTree = "<group>"; };
+		71EF19CFB38FED0ECCDE9A482F7539C8 /* Pods-TJAudioPlay_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TJAudioPlay_Example-dummy.m"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7336E7255FC41C5FE2C07638BFDB98C2 /* Pods-TJAudioPlay_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TJAudioPlay_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7ED917818247883564278B1D93D8A983 /* Pods-TJAudioPlay_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-TJAudioPlay_Example"; path = Pods_TJAudioPlay_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		81F4FEE63AF9484E4D07CB6839D259C9 /* Pods-TJAudioPlay_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TJAudioPlay_Example.release.xcconfig"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		ADB498F90FEC80E0CCF5149E28EC8495 /* Pods-TJAudioPlay_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TJAudioPlay_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		D4067ED0F86A981EBF37AEBE4B62D6B1 /* Pods-TJAudioPlay_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TJAudioPlay_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		D4D8447FAD7C2E7A78FA50EDCAD2B3B0 /* Pods-TJAudioPlay_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TJAudioPlay_Example-umbrella.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		329E3EEEE16BFC067449E165EAC6C2C8 /* Frameworks */ = {
+		6E1BEA0C64CB08B1801C52DC1FC9D6A0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2C88AED216B366F69894CC06D948C32E /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		89E5C387A0A616AAFE49CFA1BDA6106B /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				1FDF382F6635FD8A95322598A8944127 /* AudioToolbox.framework in Frameworks */,
-				78B4DFF69DD8ED4468B9C8E2A3242AF2 /* CFNetwork.framework in Frameworks */,
-				941AE86067B89B48CA074B7E741F838A /* CoreFoundation.framework in Frameworks */,
-				8D11B63DB59132C11F77D99B2D1A76F7 /* Foundation.framework in Frameworks */,
-				EB39746CE2419EB29A6F1C142A5E9239 /* SystemConfiguration.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		AFF53BB95EB3EF3CC471EE2D2209871A /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E87D58D160E28D890DE0986F95B538D7 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D477325A467DBFA17BFEBC0EEF6F35D7 /* Foundation.framework in Frameworks */,
+				3978ABC9FBF931DBA6ABD8C487A5D43B /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		03F0923ED20C290DB27086826BC7976F /* Pods */ = {
+		43E454E7219328E444F45E3FAD3FC8D3 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				29D47547259F5E849A5E67C0493021F0 /* StreamingKit */,
-				6CE769ADB33CED62014427F3434B4A62 /* TJAudioPlay */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		06734FE812332211B20A7611712DCE3B /* Pods-TJAudioPlay_Example */ = {
-			isa = PBXGroup;
-			children = (
-				F23E0FC99A06E1F992E50A155EA7EEB5 /* Pods-TJAudioPlay_Example.modulemap */,
-				CA727E390EB67397402C4FA7DEB4C454 /* Pods-TJAudioPlay_Example-acknowledgements.markdown */,
-				2B2BEF2654223ACB9E23B428F829020F /* Pods-TJAudioPlay_Example-acknowledgements.plist */,
-				FCE0023DDE58ADF66892D831C5D04214 /* Pods-TJAudioPlay_Example-dummy.m */,
-				E590CE6315CECE0CBAD46B39F9228DF3 /* Pods-TJAudioPlay_Example-frameworks.sh */,
-				9A865CA5973CF377634D00CED14E19F2 /* Pods-TJAudioPlay_Example-Info.plist */,
-				DD38D3839B750E100B5863F3AC96649D /* Pods-TJAudioPlay_Example-umbrella.h */,
-				80B38261C293C0C7E3FBEE1E472E09D0 /* Pods-TJAudioPlay_Example.debug.xcconfig */,
-				C5D145B9500C181C2FD816CC39572EEC /* Pods-TJAudioPlay_Example.release.xcconfig */,
-			);
-			name = "Pods-TJAudioPlay_Example";
-			path = "Target Support Files/Pods-TJAudioPlay_Example";
-			sourceTree = "<group>";
-		};
-		29D47547259F5E849A5E67C0493021F0 /* StreamingKit */ = {
-			isa = PBXGroup;
-			children = (
-				AC176B5631026A5EE07DE728451692CF /* NSMutableArray+STKAudioPlayer.h */,
-				5335E7DEE07BDA98134B62763CD96DD7 /* NSMutableArray+STKAudioPlayer.m */,
-				135FAE072861771016FEC5ACB838A155 /* STKAudioPlayer.h */,
-				5E658C2014019BAA4E2672633FBB62E8 /* STKAudioPlayer.m */,
-				4AEB339770A52AC2B5E613411C798994 /* STKAutoRecoveringHTTPDataSource.h */,
-				D777FD90A941BDE14EB8D11C5F0ED25F /* STKAutoRecoveringHTTPDataSource.m */,
-				026B756EA850968CCF6F4B9C7D19F98E /* STKCoreFoundationDataSource.h */,
-				AB3DDBBCD05F99EE5574998C464D3445 /* STKCoreFoundationDataSource.m */,
-				BED80AE2D7CBE72FC0477A6A596A4833 /* STKDataSource.h */,
-				2D56C5D5283BE89AA3F92EFA7A2224E2 /* STKDataSource.m */,
-				9C23186B73681BD354CD006589276776 /* STKDataSourceWrapper.h */,
-				095AE44A32B7A1204BE7215FF985107A /* STKDataSourceWrapper.m */,
-				9D1EC8F4C0D5E1EEAA7ACF3C082A3317 /* STKHTTPDataSource.h */,
-				0D95CE8770C849806B51786680BA6CBB /* STKHTTPDataSource.m */,
-				DA7F87AB869F66841B1F637F1A80C766 /* STKLocalFileDataSource.h */,
-				5B2E6F2A591136FFA77779A9DBD06229 /* STKLocalFileDataSource.m */,
-				F84EE3979899A3D870D2CE76471F624C /* STKQueueEntry.h */,
-				F819446B99746143290E257FC6CBC4B3 /* STKQueueEntry.m */,
-				F8E125397E79E9C344EC572F02B602F2 /* Support Files */,
-			);
-			path = StreamingKit;
-			sourceTree = "<group>";
-		};
-		53783FD0975F2CAF6A7B0F980CC2500B /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				CC7F0F07137B9F7F0043BC41466E9297 /* audio_icon_close@2x.png */,
-				B764DDB3AFE39171FDEAE56FC883BC44 /* audio_icon_close@3x.png */,
-				B71354BAE9E12C7E40E47BFB15E1F61C /* audio_icon_next@2x.png */,
-				20FD0528F8514E664A469E7DC27C5462 /* audio_icon_next@3x.png */,
-				3025E4152F37A69EAD327D9101DD8FC9 /* audio_icon_pause@2x.png */,
-				FA9A406B171AAA0F9D3BCAAC2C804BC8 /* audio_icon_pause@3x.png */,
-				EDA7945FA2FBAF87DBAB78460BE7CA2B /* audio_icon_play@2x.png */,
-				223742A5468A29357F7809D9F9945A75 /* audio_icon_play@3x.png */,
-				02608B12014AEFE7528DA241B88D51DB /* audio_icon_unnext@2x.png */,
-				32B8A85ACA0A7F4DCDA8BAA5D944959C /* audio_icon_unnext@3x.png */,
-				513364A9284A76D754CE0A19CC239364 /* audio_state_icon@2x.png */,
-				CCA482EE7C7AADDA85054C1CD809AAE2 /* audio_state_icon@3x.png */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-		};
-		5407698CB0A6FBCD82E157268A5A1EA7 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				CC74FC1F4E1F1239F3109D653E47DAA1 /* AudioToolbox.framework */,
-				BA1F39E93D368742E9CCA5C33AB78DA2 /* CFNetwork.framework */,
-				AE278DD8E7A4B03B25282D2BD56A3068 /* CoreFoundation.framework */,
-				CD878CED52616E9DF1329DA26310C7E8 /* Foundation.framework */,
-				4D76DAFD23E297AC44EEFD7D57B16297 /* SystemConfiguration.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		696FEC100059FE2F20B3FF76F76724FE /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				06734FE812332211B20A7611712DCE3B /* Pods-TJAudioPlay_Example */,
+				DE8CCE683ABFCD65E12DE7163A76939B /* Pods-TJAudioPlay_Example */,
 			);
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		6CE769ADB33CED62014427F3434B4A62 /* TJAudioPlay */ = {
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				54EDCD5E172CF9D7D5EBAA8104F782B0 /* TJAudioCircleProgressView.h */,
-				9F07AC7E5BFBA54E294534FEAB6F2FEF /* TJAudioCircleProgressView.m */,
-				5EFD350DBF5988A0123799C80686069E /* TJAudioPlayManager.h */,
-				819BBA177313F62895449E20215160E9 /* TJAudioPlayManager.m */,
-				7894E13E6ABF66F6BFFBB255D8EE3400 /* TJAudioPlayStateButton.h */,
-				611B7AF6C59CF6601E9E5145BFAF7FD8 /* TJAudioPlayStateButton.m */,
-				5168773176AF7857A8B5243FF6EC3F44 /* TJAudioPlayViewManger.h */,
-				045A7C249FE9C385E0E28429597394EE /* TJAudioPlayViewManger.m */,
-				AC1ED35325588390D960AB63218C3598 /* TJMediaBackGroundManager.h */,
-				0E8FCBA506845A7AA92F013F0F8B6866 /* TJMediaBackGroundManager.m */,
-				53783FD0975F2CAF6A7B0F980CC2500B /* Resources */,
-				A232C958D2509D58E8C3A55AEC9D99A5 /* Support Files */,
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
 			);
-			path = TJAudioPlay;
+			name = iOS;
 			sourceTree = "<group>";
 		};
-		A232C958D2509D58E8C3A55AEC9D99A5 /* Support Files */ = {
+		7C9AF1DF3FB97D5ECEB05F33572124FA /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3847BF10A3D75C995BEA5BCE91DC16EA /* ResourceBundle-TJAudioPlay-TJAudioPlay-Info.plist */,
-				E7D397DE5CD5305B0944CFBEA4379B4E /* TJAudioPlay.modulemap */,
-				306CE2D32CDEA1739BE8614F9FB36997 /* TJAudioPlay-dummy.m */,
-				864D26D79873488C18491A2F26155824 /* TJAudioPlay-Info.plist */,
-				1B769318FB044BA61417B633F05EF131 /* TJAudioPlay-prefix.pch */,
-				85A2B86245C1E3CE8C9BF2B28FE93525 /* TJAudioPlay-umbrella.h */,
-				F448405D450D8E27A5379F1456FA0567 /* TJAudioPlay.debug.xcconfig */,
-				35D52596E8FD890599461F1BEEAB35B4 /* TJAudioPlay.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/TJAudioPlay";
-			sourceTree = "<group>";
-		};
-		B94D7768568A9992200DB461E8CF687F /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				5407698CB0A6FBCD82E157268A5A1EA7 /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		CC6A277D235E9ED9A7FC96A846A3B972 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				7ED917818247883564278B1D93D8A983 /* Pods_TJAudioPlay_Example.framework */,
-				DBFD6E817D593043470CB1362EB4BA17 /* StreamingKit */,
-				ED567153C1F80659E495DF162EB9EC76 /* TJAudioPlay */,
-				B474E259BE192567CF46E64C02390D81 /* TJAudioPlay-TJAudioPlay */,
+				7ED917818247883564278B1D93D8A983 /* Pods-TJAudioPlay_Example */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -359,146 +66,67 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				B94D7768568A9992200DB461E8CF687F /* Frameworks */,
-				03F0923ED20C290DB27086826BC7976F /* Pods */,
-				CC6A277D235E9ED9A7FC96A846A3B972 /* Products */,
-				696FEC100059FE2F20B3FF76F76724FE /* Targets Support Files */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				7C9AF1DF3FB97D5ECEB05F33572124FA /* Products */,
+				43E454E7219328E444F45E3FAD3FC8D3 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		F8E125397E79E9C344EC572F02B602F2 /* Support Files */ = {
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				38B1CF4015721443FF5F4A46AEC675E5 /* StreamingKit.modulemap */,
-				5145109A04CA94D1F0A9DA874DA805FA /* StreamingKit-dummy.m */,
-				2854BCD3CD2B97FB2A296EC96861144F /* StreamingKit-Info.plist */,
-				D62CC09C4353F2A78B4CCDF707F4D852 /* StreamingKit-prefix.pch */,
-				5A9F393C80F0658C1696AC1ED74BE9D9 /* StreamingKit-umbrella.h */,
-				6534409FC2CD018E970422D87FBBCE47 /* StreamingKit.debug.xcconfig */,
-				4EBC8E865EFF939F7A961DD4B780E81C /* StreamingKit.release.xcconfig */,
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/StreamingKit";
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DE8CCE683ABFCD65E12DE7163A76939B /* Pods-TJAudioPlay_Example */ = {
+			isa = PBXGroup;
+			children = (
+				070A2C6152743B705F1351CEABF1C505 /* Pods-TJAudioPlay_Example.modulemap */,
+				7336E7255FC41C5FE2C07638BFDB98C2 /* Pods-TJAudioPlay_Example-acknowledgements.markdown */,
+				D4067ED0F86A981EBF37AEBE4B62D6B1 /* Pods-TJAudioPlay_Example-acknowledgements.plist */,
+				71EF19CFB38FED0ECCDE9A482F7539C8 /* Pods-TJAudioPlay_Example-dummy.m */,
+				03E989F0945324719ACBEAC69B4D2868 /* Pods-TJAudioPlay_Example-Info.plist */,
+				D4D8447FAD7C2E7A78FA50EDCAD2B3B0 /* Pods-TJAudioPlay_Example-umbrella.h */,
+				ADB498F90FEC80E0CCF5149E28EC8495 /* Pods-TJAudioPlay_Example.debug.xcconfig */,
+				81F4FEE63AF9484E4D07CB6839D259C9 /* Pods-TJAudioPlay_Example.release.xcconfig */,
+			);
+			name = "Pods-TJAudioPlay_Example";
+			path = "Target Support Files/Pods-TJAudioPlay_Example";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		624F3C70B572D6FEEEA1DD68F1F67B7C /* Headers */ = {
+		B817BB763E5D597206945F8B65214D04 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00D9CE472CF4A4C0D0F9D841B443FBCA /* NSMutableArray+STKAudioPlayer.h in Headers */,
-				55135F6C7FFBD31858FCBE3EA1DBF51D /* STKAudioPlayer.h in Headers */,
-				A9700BC45169BE201F02235613864152 /* STKAutoRecoveringHTTPDataSource.h in Headers */,
-				F35DD6565E6FC9D12F8B541F9F009480 /* STKCoreFoundationDataSource.h in Headers */,
-				C97B901C292A9FB96DB70E346CC25837 /* STKDataSource.h in Headers */,
-				927E3A820087F290E674760BE3BFC8A6 /* STKDataSourceWrapper.h in Headers */,
-				B48BB36A22DAEA13D3A6F62D8DE9A0C1 /* STKHTTPDataSource.h in Headers */,
-				2843E33F9C4F976CFA4106A508CC4F7A /* STKLocalFileDataSource.h in Headers */,
-				5D157CE0C1A1DFD9E94BF24C5356A03C /* STKQueueEntry.h in Headers */,
-				CB7980D6AB9EF5C0549E933B51DDE28B /* StreamingKit-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		71AC42F8E5688825E5BF071FFADD3E93 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				54EC672EDC4A1ACF5FB7DAF9D5CB465E /* TJAudioCircleProgressView.h in Headers */,
-				651FD10D897661E673293E28C09C2B3D /* TJAudioPlay-umbrella.h in Headers */,
-				766B7C5FEAEA0731D648A2DADE94208A /* TJAudioPlayManager.h in Headers */,
-				10EA27C0530B876560E486DDC2902CB3 /* TJAudioPlayStateButton.h in Headers */,
-				B419B6EE8A9F015DF8DBD37A40020F9A /* TJAudioPlayViewManger.h in Headers */,
-				A5ED3C826489905EAC29297682A8CD74 /* TJMediaBackGroundManager.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		BC3ED72C9E9C01160CB679E5A1F9CEC9 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F9761F975C2945BA353B42D783145856 /* Pods-TJAudioPlay_Example-umbrella.h in Headers */,
+				01DF1913AB7FDEA39A156686F1A7DDC7 /* Pods-TJAudioPlay_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		3A4983E5E9D4C9E70FFA8CCCB2D56089 /* TJAudioPlay */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 93949C073451485BFB56E1231CAA5661 /* Build configuration list for PBXNativeTarget "TJAudioPlay" */;
-			buildPhases = (
-				71AC42F8E5688825E5BF071FFADD3E93 /* Headers */,
-				571B6076CF0182D311ECE6B46238F1ED /* Sources */,
-				E87D58D160E28D890DE0986F95B538D7 /* Frameworks */,
-				EF4970238E14E84853C93F1409BB71ED /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				957FAFD24A3AE0A9453C9027EA39A6E5 /* PBXTargetDependency */,
-				617188282DC972EA5F3252413C959A3E /* PBXTargetDependency */,
-			);
-			name = TJAudioPlay;
-			productName = TJAudioPlay;
-			productReference = ED567153C1F80659E495DF162EB9EC76 /* TJAudioPlay */;
-			productType = "com.apple.product-type.framework";
-		};
-		BB6CE13DEDC23DDA163BD751A4391794 /* StreamingKit */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 6BC9D7C749584003E1D2543769FFB36D /* Build configuration list for PBXNativeTarget "StreamingKit" */;
-			buildPhases = (
-				624F3C70B572D6FEEEA1DD68F1F67B7C /* Headers */,
-				2CFFCB4D7B521F197AAC9046AF404541 /* Sources */,
-				89E5C387A0A616AAFE49CFA1BDA6106B /* Frameworks */,
-				DBE8776BAEDACA579B4414780ACB8D24 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = StreamingKit;
-			productName = StreamingKit;
-			productReference = DBFD6E817D593043470CB1362EB4BA17 /* StreamingKit */;
-			productType = "com.apple.product-type.framework";
-		};
 		CEDD5420B903B28D05BCB7C089CDBB17 /* Pods-TJAudioPlay_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5BA0931D40111FA25C78B839321D60E3 /* Build configuration list for PBXNativeTarget "Pods-TJAudioPlay_Example" */;
+			buildConfigurationList = 6580332C4A1AAB9AA9B2DCB5994FC23B /* Build configuration list for PBXNativeTarget "Pods-TJAudioPlay_Example" */;
 			buildPhases = (
-				BC3ED72C9E9C01160CB679E5A1F9CEC9 /* Headers */,
-				5C5A915014EE17D92931EE17118C598A /* Sources */,
-				329E3EEEE16BFC067449E165EAC6C2C8 /* Frameworks */,
-				4029B739A94C2D6311561328CD48F3E2 /* Resources */,
+				B817BB763E5D597206945F8B65214D04 /* Headers */,
+				DDD3C739943F8A4250D6EB39649195F0 /* Sources */,
+				6E1BEA0C64CB08B1801C52DC1FC9D6A0 /* Frameworks */,
+				7919379B41B83C537C31B55C55B44E6B /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				302A37CFF1973D49906FC43F600B4ECA /* PBXTargetDependency */,
-				24AC61BE8FF54E8F6B57E107ED55402E /* PBXTargetDependency */,
 			);
 			name = "Pods-TJAudioPlay_Example";
 			productName = Pods_TJAudioPlay_Example;
-			productReference = 7ED917818247883564278B1D93D8A983 /* Pods_TJAudioPlay_Example.framework */;
+			productReference = 7ED917818247883564278B1D93D8A983 /* Pods-TJAudioPlay_Example */;
 			productType = "com.apple.product-type.framework";
-		};
-		EFC2CB0F677D60406457FB59CD6EF75A /* TJAudioPlay-TJAudioPlay */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 18B9EA75A22D688807BDC3D3F38D05E3 /* Build configuration list for PBXNativeTarget "TJAudioPlay-TJAudioPlay" */;
-			buildPhases = (
-				BDA549CEE9A94F0494CEB0211B3ADB20 /* Sources */,
-				AFF53BB95EB3EF3CC471EE2D2209871A /* Frameworks */,
-				346F7B03B064E32E84BDA2A39F199382 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "TJAudioPlay-TJAudioPlay";
-			productName = TJAudioPlay;
-			productReference = B474E259BE192567CF46E64C02390D81 /* TJAudioPlay-TJAudioPlay */;
-			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
 
@@ -518,141 +146,40 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = CC6A277D235E9ED9A7FC96A846A3B972 /* Products */;
+			productRefGroup = 7C9AF1DF3FB97D5ECEB05F33572124FA /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				CEDD5420B903B28D05BCB7C089CDBB17 /* Pods-TJAudioPlay_Example */,
-				BB6CE13DEDC23DDA163BD751A4391794 /* StreamingKit */,
-				3A4983E5E9D4C9E70FFA8CCCB2D56089 /* TJAudioPlay */,
-				EFC2CB0F677D60406457FB59CD6EF75A /* TJAudioPlay-TJAudioPlay */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		346F7B03B064E32E84BDA2A39F199382 /* Resources */ = {
+		7919379B41B83C537C31B55C55B44E6B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FF307926936769E265C42EFDBB80A4F3 /* audio_icon_close@2x.png in Resources */,
-				83949EC1F0073DD4C3E0BB4D6B450C73 /* audio_icon_close@3x.png in Resources */,
-				B87FD8602697FC5CB2B82688797E5200 /* audio_icon_next@2x.png in Resources */,
-				3088C22B0F10EDB7743BCF729CE9E402 /* audio_icon_next@3x.png in Resources */,
-				4B2CE17DBCEB851C06FE68C7885E2D36 /* audio_icon_pause@2x.png in Resources */,
-				B51F0829C9DE6ADC93422FED24906027 /* audio_icon_pause@3x.png in Resources */,
-				984A79C5F99A19C61642B5FA805571E6 /* audio_icon_play@2x.png in Resources */,
-				7BBE5DCFF5DF892E6E53CE78E472F29D /* audio_icon_play@3x.png in Resources */,
-				07912191C137B69055FE6061813D5C06 /* audio_icon_unnext@2x.png in Resources */,
-				87BD01E6CBCD2C8F1B33A1C163D5EE8C /* audio_icon_unnext@3x.png in Resources */,
-				2D77D9F25111A9798BBB971CA954E673 /* audio_state_icon@2x.png in Resources */,
-				66832F38ED5ED80DA33F3FF8F9682D2A /* audio_state_icon@3x.png in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4029B739A94C2D6311561328CD48F3E2 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DBE8776BAEDACA579B4414780ACB8D24 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		EF4970238E14E84853C93F1409BB71ED /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				785F515720E4BCE8EEE06350376AEF04 /* TJAudioPlay-TJAudioPlay in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		2CFFCB4D7B521F197AAC9046AF404541 /* Sources */ = {
+		DDD3C739943F8A4250D6EB39649195F0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1BC22EBBB570A3C9B3B5BBF7FE20FCD9 /* NSMutableArray+STKAudioPlayer.m in Sources */,
-				0FF0707DB5278A4B3E70279D0BFC2162 /* STKAudioPlayer.m in Sources */,
-				BC19D360C8059BD19916226CDEFEF8E0 /* STKAutoRecoveringHTTPDataSource.m in Sources */,
-				3375CB2FDEA5F168ACF0343E9D283944 /* STKCoreFoundationDataSource.m in Sources */,
-				C3A899761E8B1C9AA2504FA76E34F1FA /* STKDataSource.m in Sources */,
-				30F380A8565024F6E7E44F8FFF03FC4F /* STKDataSourceWrapper.m in Sources */,
-				E0063ED361132A222ACEFFDF5F41CE13 /* STKHTTPDataSource.m in Sources */,
-				EDBECF52EFF3A03D34953D3A6CC019F9 /* STKLocalFileDataSource.m in Sources */,
-				1463A95B6A9384369EA7DC3793148AA0 /* STKQueueEntry.m in Sources */,
-				07DD6B7FB341AA71E122711C580C66AE /* StreamingKit-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		571B6076CF0182D311ECE6B46238F1ED /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				1AA77AF177EC065B46F2A216CDF9D102 /* TJAudioCircleProgressView.m in Sources */,
-				1806DF519C646F55B5EE1F26B05B8DAD /* TJAudioPlay-dummy.m in Sources */,
-				334B3FF7E0D351EBDD27EA30CCF8B7D9 /* TJAudioPlayManager.m in Sources */,
-				D429112B02725572F4DA4DC296652DDF /* TJAudioPlayStateButton.m in Sources */,
-				B4EB054E09D02B82274CC2B59E3169BD /* TJAudioPlayViewManger.m in Sources */,
-				C322D210618B4FCCA7A87D379610CA76 /* TJMediaBackGroundManager.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		5C5A915014EE17D92931EE17118C598A /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				FBCF2A3DBEC171FC763B4B496994CB01 /* Pods-TJAudioPlay_Example-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		BDA549CEE9A94F0494CEB0211B3ADB20 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				1A0E3FE98AF86712C66F335F33CF80A2 /* Pods-TJAudioPlay_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-		24AC61BE8FF54E8F6B57E107ED55402E /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = TJAudioPlay;
-			target = 3A4983E5E9D4C9E70FFA8CCCB2D56089 /* TJAudioPlay */;
-			targetProxy = B2207224BE6DD5A662FA24A43489F285 /* PBXContainerItemProxy */;
-		};
-		302A37CFF1973D49906FC43F600B4ECA /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = StreamingKit;
-			target = BB6CE13DEDC23DDA163BD751A4391794 /* StreamingKit */;
-			targetProxy = 3114C8EACF59CAD072173098F6539194 /* PBXContainerItemProxy */;
-		};
-		617188282DC972EA5F3252413C959A3E /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "TJAudioPlay-TJAudioPlay";
-			target = EFC2CB0F677D60406457FB59CD6EF75A /* TJAudioPlay-TJAudioPlay */;
-			targetProxy = 00C6079B8FA4EC2B923882134E9A572F /* PBXContainerItemProxy */;
-		};
-		957FAFD24A3AE0A9453C9027EA39A6E5 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = StreamingKit;
-			target = BB6CE13DEDC23DDA163BD751A4391794 /* StreamingKit */;
-			targetProxy = 7DBBA2CBAE97007108D871D457CC5288 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
 /* Begin XCBuildConfiguration section */
-		43EC28D2B0CE8E4992902168251C3F21 /* Debug */ = {
+		49CC9AC7BEF0F52033CA47507F81313F /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 80B38261C293C0C7E3FBEE1E472E09D0 /* Pods-TJAudioPlay_Example.debug.xcconfig */;
+			baseConfigurationReference = ADB498F90FEC80E0CCF5149E28EC8495 /* Pods-TJAudioPlay_Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -683,9 +210,9 @@
 			};
 			name = Debug;
 		};
-		647ECE0F774E76B03EC383F80BF5F311 /* Release */ = {
+		5E6EA5795D5D34438A5B36543CCF0113 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C5D145B9500C181C2FD816CC39572EEC /* Pods-TJAudioPlay_Example.release.xcconfig */;
+			baseConfigurationReference = 81F4FEE63AF9484E4D07CB6839D259C9 /* Pods-TJAudioPlay_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -772,118 +299,10 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
-			};
-			name = Release;
-		};
-		80ABCB03696CA8A88A2E266AC36CA4C1 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F448405D450D8E27A5379F1456FA0567 /* TJAudioPlay.debug.xcconfig */;
-			buildSettings = {
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/TJAudioPlay";
-				IBSC_MODULE = TJAudioPlay;
-				INFOPLIST_FILE = "Target Support Files/TJAudioPlay/ResourceBundle-TJAudioPlay-TJAudioPlay-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				PRODUCT_NAME = TJAudioPlay;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Debug;
-		};
-		A194B3285433286EC693811265D969E3 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4EBC8E865EFF939F7A961DD4B780E81C /* StreamingKit.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/StreamingKit/StreamingKit-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/StreamingKit/StreamingKit-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/StreamingKit/StreamingKit.modulemap";
-				PRODUCT_MODULE_NAME = StreamingKit;
-				PRODUCT_NAME = StreamingKit;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		A6BAEB730510571E132EF36E9C8CA57A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6534409FC2CD018E970422D87FBBCE47 /* StreamingKit.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/StreamingKit/StreamingKit-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/StreamingKit/StreamingKit-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/StreamingKit/StreamingKit.modulemap";
-				PRODUCT_MODULE_NAME = StreamingKit;
-				PRODUCT_NAME = StreamingKit;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		C421B033378E0C174F28CBD421F2960E /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 35D52596E8FD890599461F1BEEAB35B4 /* TJAudioPlay.release.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/TJAudioPlay/TJAudioPlay-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/TJAudioPlay/TJAudioPlay-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/TJAudioPlay/TJAudioPlay.modulemap";
-				PRODUCT_MODULE_NAME = TJAudioPlay;
-				PRODUCT_NAME = TJAudioPlay;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
@@ -953,65 +372,9 @@
 			};
 			name = Debug;
 		};
-		E7367574EE4D86FE083D9D943AEDCC5A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F448405D450D8E27A5379F1456FA0567 /* TJAudioPlay.debug.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/TJAudioPlay/TJAudioPlay-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/TJAudioPlay/TJAudioPlay-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/TJAudioPlay/TJAudioPlay.modulemap";
-				PRODUCT_MODULE_NAME = TJAudioPlay;
-				PRODUCT_NAME = TJAudioPlay;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		FDA20BCFAB74ACE4810B173495876C88 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 35D52596E8FD890599461F1BEEAB35B4 /* TJAudioPlay.release.xcconfig */;
-			buildSettings = {
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/TJAudioPlay";
-				IBSC_MODULE = TJAudioPlay;
-				INFOPLIST_FILE = "Target Support Files/TJAudioPlay/ResourceBundle-TJAudioPlay-TJAudioPlay-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				PRODUCT_NAME = TJAudioPlay;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		18B9EA75A22D688807BDC3D3F38D05E3 /* Build configuration list for PBXNativeTarget "TJAudioPlay-TJAudioPlay" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				80ABCB03696CA8A88A2E266AC36CA4C1 /* Debug */,
-				FDA20BCFAB74ACE4810B173495876C88 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -1021,29 +384,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5BA0931D40111FA25C78B839321D60E3 /* Build configuration list for PBXNativeTarget "Pods-TJAudioPlay_Example" */ = {
+		6580332C4A1AAB9AA9B2DCB5994FC23B /* Build configuration list for PBXNativeTarget "Pods-TJAudioPlay_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				43EC28D2B0CE8E4992902168251C3F21 /* Debug */,
-				647ECE0F774E76B03EC383F80BF5F311 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		6BC9D7C749584003E1D2543769FFB36D /* Build configuration list for PBXNativeTarget "StreamingKit" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				A6BAEB730510571E132EF36E9C8CA57A /* Debug */,
-				A194B3285433286EC693811265D969E3 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		93949C073451485BFB56E1231CAA5661 /* Build configuration list for PBXNativeTarget "TJAudioPlay" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				E7367574EE4D86FE083D9D943AEDCC5A /* Debug */,
-				C421B033378E0C174F28CBD421F2960E /* Release */,
+				49CC9AC7BEF0F52033CA47507F81313F /* Debug */,
+				5E6EA5795D5D34438A5B36543CCF0113 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
