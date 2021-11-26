@@ -42,6 +42,7 @@
     
     //展示UI
     if(true){
+        [TJAudioPlayViewManger openBackGround:YES];
         [TJAudioPlayViewManger audioSourceData:@[model]];
         [TJAudioPlayViewManger show];
         [TJAudioPlayViewManger playWithModel:[TJAudioPlayViewManger getAudioSourceData].firstObject];

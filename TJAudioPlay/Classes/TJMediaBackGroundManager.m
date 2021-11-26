@@ -8,10 +8,7 @@
 
 #import "TJMediaBackGroundManager.h"
 #import <CallKit/CallKit.h>
-#import "SDWebImageManager.h"
-#import "SDImageCache.h"
-#import "SDWebImageDownloader.h"
-
+#import <CommonCrypto/CommonDigest.h>
 
 
 // 被新的模块监听
@@ -107,21 +104,23 @@ static TJMediaBackGroundManager *_shareInstance = nil;
     _nowPlayingInfo = nowPlayingInfo;
     NSMutableDictionary *songInfo = nil;
     MPNowPlayingInfoCenter *center = [MPNowPlayingInfoCenter defaultCenter];
-    
+    NSFileManager *fileManager = [NSFileManager defaultManager];
+    NSString *path = [NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES).firstObject stringByAppendingPathComponent:[NSString stringWithFormat:@"%@.png",[self md5:nowPlayingInfo.coverUrl?:@""]]];
     if (nowPlayingInfo) {
         songInfo = [[NSMutableDictionary alloc] initWithDictionary:[center nowPlayingInfo]];
         __block UIImage *coverImage = nowPlayingInfo.coverImage;
-        
         if(!coverImage){
-            SDWebImageManager *manager = [SDWebImageManager sharedManager];
-            NSString* key = [manager cacheKeyForURL:[NSURL URLWithString:nowPlayingInfo.coverUrl]];
-            SDImageCache* cache = [SDImageCache sharedImageCache];
-            coverImage = [cache imageFromDiskCacheForKey:key];
+            if([fileManager fileExistsAtPath:path]){
+                coverImage = [UIImage imageWithContentsOfFile:path];
+            }
         }
         if(!coverImage){
-            [[SDWebImageDownloader sharedDownloader] downloadImageWithURL:[NSURL URLWithString:nowPlayingInfo.coverUrl] options:SDWebImageDownloaderHighPriority progress:nil completed:^(UIImage *image, NSData *data, NSError *error, BOOL finished) {
+            NSURLSession *session = [NSURLSession sharedSession];
+            NSURLSessionDownloadTask *task = [session downloadTaskWithURL:[NSURL URLWithString:nowPlayingInfo.coverUrl?:@""] completionHandler:^(NSURL * _Nullable location, NSURLResponse * _Nullable response, NSError * _Nullable error) {
+                   
+                [[NSFileManager defaultManager] moveItemAtURL:location toURL:[NSURL fileURLWithPath:path] error:nil];
                 dispatch_async(dispatch_get_main_queue(), ^{
-                    coverImage = image;
+                    coverImage = [UIImage imageWithContentsOfFile:path];
                     MPMediaItemArtwork *artwork = [[MPMediaItemArtwork alloc] initWithBoundsSize:CGSizeMake(200, 200) requestHandler:^UIImage * _Nonnull(CGSize size) {
                         if(!coverImage){
                             coverImage = [UIImage imageNamed:@"AppIcon"];
@@ -138,8 +137,9 @@ static TJMediaBackGroundManager *_shareInstance = nil;
                     [songInfo setValue:[NSNumber numberWithDouble:isPlay?1.0:0.0] forKey:MPNowPlayingInfoPropertyDefaultPlaybackRate];
                     [center setNowPlayingInfo:songInfo];
                 });
+                    
             }];
-
+            [task resume];
         }else{
             
             MPMediaItemArtwork *artwork = [[MPMediaItemArtwork alloc] initWithBoundsSize:CGSizeMake(200, 200) requestHandler:^UIImage * _Nonnull(CGSize size) {
@@ -391,6 +391,18 @@ static TJMediaBackGroundManager *_shareInstance = nil;
     
     [_callObserver setDelegate:nil queue:0];
     _callObserver = nil;
+}
+
+
+- (NSString* )md5:(NSString* )input {
+    const char* str =[input UTF8String];
+    unsigned char result[CC_MD5_DIGEST_LENGTH];
+    CC_MD5(str, strlen(str), result);
+    NSMutableString* ret = [NSMutableString stringWithCapacity: CC_MD5_DIGEST_LENGTH];
+    for(int i=0; i< CC_MD5_DIGEST_LENGTH; i++){
+        [ret appendFormat:@"%02X", result];
+    }
+    return ret;
 }
 
 @end

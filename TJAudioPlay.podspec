@@ -33,6 +33,5 @@ TODO: Add long description of the pod here.
   s.resource_bundles = {
      'TJAudioPlay' => ['TJAudioPlay/Assets/*.png']
   }
-  s.dependency 'SDWebImage'
   s.dependency 'StreamingKit'
 end

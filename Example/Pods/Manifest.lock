@@ -1,3 +1,23 @@
-PODFILE CHECKSUM: c747210ac92db75d76912683ac5903a58fd60dfc
+PODS:
+  - StreamingKit (0.1.30)
+  - TJAudioPlay (0.2.0):
+    - StreamingKit
+
+DEPENDENCIES:
+  - TJAudioPlay (from `../`)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - StreamingKit
+
+EXTERNAL SOURCES:
+  TJAudioPlay:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  StreamingKit: 70ca8608c206864b4d54a577eacb3c8bf7c72209
+  TJAudioPlay: 69157a3528c0bcb9ed4ccf76e455f8bd46e86a84
+
+PODFILE CHECKSUM: bd4d41cdff0fd705bb466df9964b759bbd52fabe
 
 COCOAPODS: 1.11.2

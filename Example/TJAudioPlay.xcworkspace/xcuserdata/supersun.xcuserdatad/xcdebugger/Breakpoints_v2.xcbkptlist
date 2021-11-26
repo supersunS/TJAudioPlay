@@ -7,47 +7,47 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "A0055460-0AEF-446F-A101-C03E8122667D"
+            uuid = "4113D4A3-618F-4654-9BB6-14CD8D81B122"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "Pods/TJAudioPlay/TJAudioPlay/Classes/TJAudioPlayViewManger.m"
+            filePath = "../TJAudioPlay/Classes/TJMediaBackGroundManager.m"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "484"
-            endingLineNumber = "484"
-            landmarkName = "-tj_imageNamed:"
+            startingLineNumber = "123"
+            endingLineNumber = "123"
+            landmarkName = "-updateNowPlayingInfo:palyState:"
             landmarkType = "7">
             <Locations>
                <Location
-                  uuid = "A0055460-0AEF-446F-A101-C03E8122667D - b76b251bd173821"
+                  uuid = "4113D4A3-618F-4654-9BB6-14CD8D81B122 - e375b646e26ab549"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "-[TJAudioPlayView tj_imageNamed:]"
-                  moduleName = "TJAudioPlay_Example"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/supersun/Desktop/TJAudioPlay/Example/Pods/TJAudioPlay/TJAudioPlay/Classes/TJAudioPlayViewManger.m"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "484"
-                  endingLineNumber = "484"
-                  offsetFromSymbolStart = "55">
-               </Location>
-               <Location
-                  uuid = "A0055460-0AEF-446F-A101-C03E8122667D - 81d850f13989f95b"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "-[TJAudioPlayView tj_imageNamed:]"
+                  symbolName = "__59-[TJMediaBackGroundManager updateNowPlayingInfo:palyState:]_block_invoke"
                   moduleName = "TJAudioPlay"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/supersun/Desktop/TJAudioPlay/Example/Pods/TJAudioPlay/TJAudioPlay/Classes/TJAudioPlayViewManger.m"
+                  urlString = "file:///Users/supersun/Desktop/TJAudioPlay/TJAudioPlay/Classes/TJMediaBackGroundManager.m"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "485"
-                  endingLineNumber = "485"
-                  offsetFromSymbolStart = "384">
+                  startingLineNumber = "124"
+                  endingLineNumber = "124"
+                  offsetFromSymbolStart = "108">
+               </Location>
+               <Location
+                  uuid = "4113D4A3-618F-4654-9BB6-14CD8D81B122 - 6df43e24edf32c5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__59-[TJMediaBackGroundManager updateNowPlayingInfo:palyState:]_block_invoke_2"
+                  moduleName = "TJAudioPlay"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/supersun/Desktop/TJAudioPlay/TJAudioPlay/Classes/TJMediaBackGroundManager.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "123"
+                  endingLineNumber = "123"
+                  offsetFromSymbolStart = "36">
                </Location>
             </Locations>
          </BreakpointContent>
@@ -55,49 +55,17 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "C7BE0E14-D179-4FC3-86AD-564B87D77A3E"
+            uuid = "8336AA0D-4D7A-4C5A-B962-271539DC63FB"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "Pods/TJAudioPlay/TJAudioPlay/Classes/TJAudioPlayViewManger.m"
+            filePath = "../TJAudioPlay/Classes/TJAudioPlayManager.m"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "472"
-            endingLineNumber = "472"
-            landmarkName = "-tj_refreshBundle"
+            startingLineNumber = "167"
+            endingLineNumber = "167"
+            landmarkName = "-destory"
             landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "C7BE0E14-D179-4FC3-86AD-564B87D77A3E - fe9c721d5694d588"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "-[TJAudioPlayView tj_refreshBundle]"
-                  moduleName = "TJAudioPlay_Example"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/supersun/Desktop/TJAudioPlay/Example/Pods/TJAudioPlay/TJAudioPlay/Classes/TJAudioPlayViewManger.m"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "472"
-                  endingLineNumber = "472"
-                  offsetFromSymbolStart = "16">
-               </Location>
-               <Location
-                  uuid = "C7BE0E14-D179-4FC3-86AD-564B87D77A3E - 743290bdd20a14dd"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "-[TJAudioPlayView tj_refreshBundle]"
-                  moduleName = "TJAudioPlay"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/supersun/Desktop/TJAudioPlay/Example/Pods/TJAudioPlay/TJAudioPlay/Classes/TJAudioPlayViewManger.m"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "472"
-                  endingLineNumber = "472"
-                  offsetFromSymbolStart = "16">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>
