@@ -4,7 +4,7 @@ platform:ios,"10.0"
 source 'https://github.com/CocoaPods/Specs.git'
 
 target 'TJAudioPlay_Example' do
-    pod 'TJAudioPlay' ,'0.4.0'
+    pod 'TJAudioPlay' ,'0.5.0'
 end
 
 
