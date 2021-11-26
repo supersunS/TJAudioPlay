@@ -8,7 +8,6 @@
 
 #import "TJMediaBackGroundManager.h"
 #import <CallKit/CallKit.h>
-#import <CommonCrypto/CommonDigest.h>
 
 
 // 被新的模块监听
@@ -105,7 +104,7 @@ static TJMediaBackGroundManager *_shareInstance = nil;
     NSMutableDictionary *songInfo = nil;
     MPNowPlayingInfoCenter *center = [MPNowPlayingInfoCenter defaultCenter];
     NSFileManager *fileManager = [NSFileManager defaultManager];
-    NSString *path = [NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES).firstObject stringByAppendingPathComponent:[NSString stringWithFormat:@"%@.png",[self md5:nowPlayingInfo.coverUrl?:@""]]];
+    NSString *path = [NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES).firstObject stringByAppendingPathComponent:[NSString stringWithFormat:@"/%@",[nowPlayingInfo.coverUrl lastPathComponent]?:@""]];
     if (nowPlayingInfo) {
         songInfo = [[NSMutableDictionary alloc] initWithDictionary:[center nowPlayingInfo]];
         __block UIImage *coverImage = nowPlayingInfo.coverImage;
@@ -393,16 +392,5 @@ static TJMediaBackGroundManager *_shareInstance = nil;
     _callObserver = nil;
 }
 
-
-- (NSString* )md5:(NSString* )input {
-    const char* str =[input UTF8String];
-    unsigned char result[CC_MD5_DIGEST_LENGTH];
-    CC_MD5(str, strlen(str), result);
-    NSMutableString* ret = [NSMutableString stringWithCapacity: CC_MD5_DIGEST_LENGTH];
-    for(int i=0; i< CC_MD5_DIGEST_LENGTH; i++){
-        [ret appendFormat:@"%02X", result];
-    }
-    return ret;
-}
 
 @end
