@@ -7,8 +7,16 @@
 //
 
 #import "TJAUDIOAppDelegate.h"
+#import "TJMediaBackGroundManager.h"
 
 @implementation TJAUDIOAppDelegate
+
+//远程控制操作
+-(void)remoteControlReceivedWithEvent:(UIEvent *)event{
+    if (event.type == UIEventTypeRemoteControl) {
+        [[NSNotificationCenter defaultCenter] postNotificationName:TJMediaPlayControllerByHeadsetListerNotificationName object:@(event.subtype)];
+    }
+}
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
