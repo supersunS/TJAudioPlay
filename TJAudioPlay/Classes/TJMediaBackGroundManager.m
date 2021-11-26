@@ -31,6 +31,8 @@ NSString *const TJMediaPlayControllerByHeadsetListerNotificationName = @"TJMedia
 
 @property (nonatomic, assign) NSInteger routeChangeReason;
 
+@property (nonatomic, strong) NSMutableDictionary *loadingStateDict;
+
 @end
 
 @implementation TJMediaBackGroundManager
@@ -42,6 +44,7 @@ static TJMediaBackGroundManager *_shareInstance = nil;
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{
         _shareInstance = [[super allocWithZone:nil] init];
+        _shareInstance.loadingStateDict = [[NSMutableDictionary alloc]init];
     });
     return _shareInstance;
 }
@@ -113,11 +116,15 @@ static TJMediaBackGroundManager *_shareInstance = nil;
                 coverImage = [UIImage imageWithContentsOfFile:path];
             }
         }
-        if(!coverImage){
+        __weak typeof(self) weakSelf = self;
+        if(!coverImage && ![[self.loadingStateDict objectForKey:path] boolValue]){
             NSURLSession *session = [NSURLSession sharedSession];
             NSURLSessionDownloadTask *task = [session downloadTaskWithURL:[NSURL URLWithString:nowPlayingInfo.coverUrl?:@""] completionHandler:^(NSURL * _Nullable location, NSURLResponse * _Nullable response, NSError * _Nullable error) {
-                   
-                [[NSFileManager defaultManager] moveItemAtURL:location toURL:[NSURL fileURLWithPath:path] error:nil];
+                [weakSelf.loadingStateDict setValue:@(YES) forKey:path];
+                if(location && !error){
+                    [[NSFileManager defaultManager] moveItemAtURL:location toURL:[NSURL fileURLWithPath:path] error:nil];
+                    coverImage = [UIImage imageWithContentsOfFile:path];
+                }
                 dispatch_async(dispatch_get_main_queue(), ^{
                     coverImage = [UIImage imageWithContentsOfFile:path];
                     MPMediaItemArtwork *artwork = [[MPMediaItemArtwork alloc] initWithBoundsSize:CGSizeMake(200, 200) requestHandler:^UIImage * _Nonnull(CGSize size) {
